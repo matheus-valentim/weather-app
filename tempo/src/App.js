@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
+
 const axios = require("axios");
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
 	}, [imagem]);
 
 	async function teste() {
-		const url = `http://api.weatherapi.com/v1/current.json?key=4d4ff2a04a2e420ca9111041221003 &q=${local}&lang=PT`;
+		const url = `https://api.weatherapi.com/v1/current.json?key=4d4ff2a04a2e420ca9111041221003 &q=${local}&lang=PT`;
 		try {
 			await axios.get(url).then((dados) => {
 				setData(dados.data);
@@ -34,6 +35,7 @@ function App() {
 				}}
 			>
 				<input
+					placeholder="Nome de uma cidade:"
 					type="text"
 					onChange={(event) => {
 						setlocal(event.target.value);
