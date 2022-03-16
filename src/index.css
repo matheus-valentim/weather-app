@@ -1,0 +1,62 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+	background-image: url(sunset.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.wrapper {
+	background-color: rgba(0, 0, 0, 0.329);
+	min-height: 50vh;
+	min-width: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.img_temp {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+p,
+h1,
+h2 {
+	color: white;
+	text-align: center;
+}
+img {
+	height: 100px;
+	width: 100px;
+}
+input {
+	padding: 7px;
+	vertical-align: middle;
+	outline: rgba(0, 0, 0, 0.582);
+	color: rgba(0, 0, 0, 0.822);
+}
+button {
+	height: 33px;
+	width: 30px;
+	text-align: center;
+}
+svg {
+	width: 15px;
+	height: 15px;
+}
+form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 20px;
+}
