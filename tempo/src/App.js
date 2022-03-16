@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
-import "./index.css";
-
+import "./App.css";
 const axios = require("axios");
 
 function App() {
