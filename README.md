@@ -8,7 +8,7 @@ O projeto esta concluido.
 Clique no link abaixo para ver a aplicação!<br>
 <a target="_blank" href="https://temperatura-atual.vercel.app/">Clique aqui!</a>
 
-## ☕ Usando Gerador de senha
+## ☕ Usando Weather App
 
 Para usar esse projeto, siga estas etapas:
 
